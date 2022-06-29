@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  background-color: #f9f3ee; }
+
+header {
+  position: sticky;
+  top: 0%;
+  background-color: #f9ceee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1; }
+  header img {
+    width: 150px; }
