@@ -366,9 +366,10 @@ nav ul {
         justify-items: center;
         justify-content: space-around;
         margin: 0px 15px;
-        
+
         width: 1000px;
     }
+
     .grid-container {
         display: flex;
         align-items: center;
@@ -489,11 +490,12 @@ nav ul {
         margin: 10px 0;
         position: relative;
     }
+
     form .form-content .input-boxes {
         display: flex;
         width: 100%;
         margin: 10px 0;
-        flex-direction:column;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
