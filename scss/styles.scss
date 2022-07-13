@@ -18,7 +18,7 @@ body {
 header {
     position: sticky;
     top: 0%;
-    background-color: $primary-color;
+    background-image: linear-gradient($primary-color, $secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,11 +426,6 @@ nav ul {
         justify-content: space-between;
     }
 
-    /*.form-content .login-form,
-    .form-content .signup-form {
-        width: calc(100% / 2 - 25px);
-    }*/
-
     form .form .form-content .title {
         position: relative;
         font-size: 24px;
@@ -666,11 +661,6 @@ nav ul {
         }
     }
 
-    .form-content .login-form,
-    .form-content .signup-form {
-        width: calc(100% / 2 - 25px);
-    }
-
     form .form .form-content .title {
         position: relative;
         font-size: 24px;
@@ -840,7 +830,7 @@ nav ul {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: rgba(167, 166, 165, 0.753);
+        background: rgb(249, 243, 238);
         ;
         padding: 30px;
     }
@@ -908,11 +898,6 @@ nav ul {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-
-    .form-content .login-form,
-    .form-content .signup-form {
-        width: calc(100% / 2 - 25px);
     }
 
     form .form .form-content .title {

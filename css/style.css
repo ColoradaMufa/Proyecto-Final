@@ -16,7 +16,7 @@ body {
 header {
   position: sticky;
   top: 0%;
-  background-color: #f9ceee;
+  background-image: linear-gradient(#f9ceee, #fff);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -329,10 +329,6 @@ nav ul {
   align-items: center;
   justify-content: space-between; }
 
-/*.form-content .login-form,
-    .form-content .signup-form {
-        width: calc(100% / 2 - 25px);
-    }*/
 form .form .form-content .title {
   position: relative;
   font-size: 24px;
@@ -512,9 +508,6 @@ form .form-content .sign-up-text {
         background: #f8f8f8 #f9ceee;
         opacity: 0.5;
         z-index: 100; }
-  .form-content .login-form,
-  .form-content .signup-form {
-    width: calc(100% / 2 - 25px); }
   form .form .form-content .title {
     position: relative;
     font-size: 24px;
@@ -631,7 +624,7 @@ form .form-content .sign-up-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(167, 166, 165, 0.753);
+    background: #f9f3ee;
     padding: 30px; }
   .container {
     position: relative;
@@ -683,9 +676,6 @@ form .form-content .sign-up-text {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  .form-content .login-form,
-  .form-content .signup-form {
-    width: calc(100% / 2 - 25px); }
   form .form .form-content .title {
     position: relative;
     font-size: 24px;
